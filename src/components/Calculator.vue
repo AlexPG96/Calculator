@@ -14,7 +14,7 @@
           :class="{'actions': ['C','*','/','-','+','%','='].includes(number)}"
           @click="action(number)"
         >
-          {{n}}
+          {{number}}
         </div>
       </div>
     </div>
